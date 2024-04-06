@@ -2,7 +2,7 @@ from collections import deque, Counter
 
 
 class Solution:
-    def uniqueEelemets(self, inputVal: list[list]) -> list:
+    def spiralMatrix(self, inputVal: list[list]) -> list:
         if not inputVal:
             return []
         output = []
@@ -37,6 +37,6 @@ class Solution:
 
 if __name__ == "__main__":
     obj = Solution()
-    ans = obj.uniqueEelemets([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+    ans = obj.spiralMatrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 
     print(ans)
